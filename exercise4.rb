@@ -10,7 +10,7 @@ def count_vowels(str)
     vowels_count += 1 if vowels.include?(str[i])
   end
 
-  return vowels_count
+  return vowel_count
 end
 
 
