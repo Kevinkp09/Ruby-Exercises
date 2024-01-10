@@ -4,8 +4,8 @@ def unique_elements()
   arr = [1, 2, 3, 2, 5, 7, 9, 2, 1, 4, 5]
   unique_array = []
 
-  arr.each do |i|
-    unique_array << i unless unique_array.include?(i)
+  arr.each do |element|
+    unique_array << element unless unique_array.include?(element)
   end
 
  return unique_array
