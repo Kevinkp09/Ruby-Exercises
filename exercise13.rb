@@ -5,8 +5,8 @@ def find_max_key(hash)
   max_key = nil
 
   hash.each do |key, value|
-    if numeric_value > max_value
-      max_value = numeric_value
+    if value > max_value
+      max_value = value
       max_key = key
     end
   end
