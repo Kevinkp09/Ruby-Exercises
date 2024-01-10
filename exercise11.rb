@@ -1,3 +1,6 @@
+# 11.Create a method that returns the common elements between two arrays.
+
+
 def common_elements(arr1, arr2)
   common_elements_arr = []
 
