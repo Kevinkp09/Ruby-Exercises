@@ -12,4 +12,4 @@ hash.each do |key, value|
   end
 end
 
-puts "Key with maximum numeric value: #{max_key} with max value of #{max_value}"
+puts "Key with maximum value: #{max_key} with max value of #{max_value}"
