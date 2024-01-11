@@ -1,6 +1,6 @@
 # 7.Implement a method to calculate the sum of all elements in an array.
 
-def calculate_sum()
+def calculate_sum
   sum = 0
   arr = [1, 2, 3, 4, 5]
   arr.each do |i|
@@ -10,8 +10,6 @@ def calculate_sum()
   return sum
 end
 
-
-
-result = calculate_sum()
+result = calculate_sum
 
 puts "Sum of elements: #{result}"
