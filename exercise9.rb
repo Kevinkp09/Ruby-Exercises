@@ -1,3 +1,5 @@
+# 9.Write a method to rotate the elements of an array to the left by a given number of positions.
+
 def rotate_array_left(arr, positions)
   length = arr.length
   positions %= length
