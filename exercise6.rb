@@ -3,18 +3,16 @@
 def find_max_element(arr)
   max_element = arr[0]
 
-  for element in arr[1..-1]
+  arr[1..-1].each do |element|
      if element > max_element
       max_element = element
      end
   end
 
- return max_element
+  max_element
 end
 
-
-numbers = [49, 784, 190, 9, 37, 543, 67, 469]
+numbers = [49, 78, 190, 9, 37, 543, 67, 469]
 result = find_max_element(numbers)
-
 
 puts "Maximum element: #{result}"
