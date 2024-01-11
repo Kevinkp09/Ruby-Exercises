@@ -3,18 +3,15 @@
 def remove_duplicates(str)
   unique_str = ""
 
-  for char in str.chars
-     unless unique_str.include?(char)
-      unique_str += char
-     end
+  str.each_char do |char|
+    unique_str += char unless unique_str.include?(char)
+
   end
 
-  return unique_str
+   unique_str
 end
-
 
 original_string = "Manan likes Banana"
 result = remove_duplicates(original_string)
-
 
 puts "String without duplicates: #{result}"
