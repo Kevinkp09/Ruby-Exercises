@@ -1,19 +1,15 @@
-
 # 4.Write a function to count the number of vowels in a string.
-
 
 def count_vowels(str)
   vowels = 'aeiouAEIOU'
   vowels_count = 0
 
-  for i in 0...str.length
-    vowels_count += 1 if vowels.include?(str[i])
+  str.each_char do |char|
+    vowels_count += 1 if vowels.include?(char)
   end
 
-  return vowel_count
+  vowels_count
 end
 
-
-
-result = count_vowels("I studied at Gec Modasa")
+result = count_vowels("Kevin")
 puts result
